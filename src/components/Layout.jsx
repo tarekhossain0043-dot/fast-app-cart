@@ -9,7 +9,7 @@ export default function Layout() {
     <Header />
     <div className='flex'>
       <Sidebar />
-      <div className="flex flex-1 flex-col gap-5">
+      <div className="flex pl-10 pt-6 flex-1 flex-col gap-5">
       <Outlet />
       </div>
     </div>
